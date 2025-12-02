@@ -1,4 +1,5 @@
 Architecture Diagram
+
 Description:
 
 Client: Calls backend endpoints to mint, list, or buy NFTs.
@@ -25,7 +26,9 @@ Diagram:
 
 
 README
+
 What i built
+
 A minimal Sui dApp with:
 
 Move contract for minting, listing, and buying NFTs
@@ -33,6 +36,7 @@ Backend API to index events and manage listings
 Simple REST API for client interaction
 
 How to run:
+
 Deploy Move contract to Sui Testnet (see Sui NFT Example)
 Start backend (Node/Nest/FastAPI)
 Configure Sui RPC endpoint and DB connection
