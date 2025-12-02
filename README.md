@@ -8,9 +8,9 @@ Sui Blockchain: Hosts the Move contract, emits events.
 Diagram:
 
 
-+---------+         +---------+         +-----------------+
-|  Client | <-----> | Backend | <-----> | Sui Blockchain  |
-+---------+         +---------+         +-----------------+
+
+  Client  <----->  Backend  <----->  Sui Blockchain  
+
      |                   |                      |
      |  /mint, /buy,     |                      |
      |  /listings        |                      |
