@@ -37,7 +37,7 @@ public struct NFT has key, store {
 }
 
 /// Marketplace Registry - shared object to track stats
-public struct MarketplaceRegistry has key {
+public struct NftMarketplaceRegistry has key {
     id: UID,
     total_nfts_minted: u64,
     total_nfts_listed: u64,
